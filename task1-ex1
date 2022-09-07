@@ -1,0 +1,14 @@
+1.A Terminal - MacOS Terminal
+
+2.Git version control with configurations (.gitignore, git config) - git version 2.37.3
+
+3.GNU G++ (onwindows, use wsl/linux) - 
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 10.0.0 (clang-1000.10.44.4)
+Target: x86_64-apple-darwin17.7.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+4.GNU Make - GNU Make 3.81
+
+5.Text editor configuration - Mac textEdit
