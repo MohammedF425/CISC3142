@@ -1,0 +1,31 @@
+Script started on Wed Sep  7 20:27:32 2022
+[?1034hbash-3.2$ mkdir task2
+bash-3.2$ mv task2 task2.0
+bash-3.2$ ls
+demo.txt	demo2.txt	task1-ex1	task2.0		typescript
+bash-3.2$ cd de[K[Ktsa[K[Kask2.0/
+bash-3.2$ ls
+bash-3.2$ pwd
+/Users/ahmedfadel/CISC3142/task2.0
+bash-3.2$ cd ../
+bash-3.2$ ls
+demo.txt	demo2.txt	task1-ex1	task2.0		typescript
+bash-3.2$ git c[Kadd task2.0/
+bash-3.2$ git commit ""A"d"d"i"n"g" "a" "f"o"l";"[1P"d"e"r" "t"o" "r"e"p"o"[C
+error: pathspec 'Adding a folder to repo' did not match any file(s) known to git
+bash-3.2$ git commit "Adding a folder to repo"[C[1@ [1@-[1@m[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mtypescript[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+bash-3.2$ git push
+Warning: Permanently added the ECDSA host key for IP address '140.82.114.3' to the list of known hosts.
+Everything up-to-date
+bash-3.2$ exit
+exit
+
+Script done on Wed Sep  7 20:29:56 2022
