@@ -1,0 +1,28 @@
+Script started on Thu Sep 22 17:15:43 2022
+[?1034hbash-3.2$ git add 
+solutions.md  typescript    
+bash-3.2$ git add solutions.md 
+bash-3.2$ cd ../
+bash-3.2$ ls
+Exer3			markdownFormatting.md	typescript
+demo.txt		task1-ex1
+demo2.txt		task2.0
+bash-3.2$ git add markdownFormatting.md 
+bash-3.2$ git commit - [Km ""A"d"d"i"n"g" "m"a"r"k"s"[1P"d"o"w"n" "r"e"f"e"r"e"n"c"e" "s"h"e"e" "[1P"t" "a"n"d" "l"a"[1P"[1P"e"[1P"e"x"e"r"c"i"s"e" "3" "a"n"s"[1P"[1P"[1P"s"p"[1P"o"l"u"t"i"o" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn""s"[C
+[main 984700a] Adding markdown reference sheet and exercise 3 solutions
+ 1 file changed, 30 insertions(+)
+ create mode 100644 markdownFormatting.md
+bash-3.2$ git push
+Enumerating objects: 8, done.
+Counting objects:  12% (1/8)Counting objects:  25% (2/8)Counting objects:  37% (3/8)Counting objects:  50% (4/8)Counting objects:  62% (5/8)Counting objects:  75% (6/8)Counting objects:  87% (7/8)Counting objects: 100% (8/8)Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects:  16% (1/6)Compressing objects:  33% (2/6)Compressing objects:  50% (3/6)Compressing objects:  66% (4/6)Compressing objects:  83% (5/6)Compressing objects: 100% (6/6)Compressing objects: 100% (6/6), done.
+Writing objects:  14% (1/7)Writing objects:  28% (2/7)Writing objects:  42% (3/7)Writing objects:  57% (4/7)Writing objects:  71% (5/7)Writing objects:  85% (6/7)Writing objects: 100% (7/7)Writing objects: 100% (7/7), 2.40 KiB | 2.40 MiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 1 local object.[K
+To github.com:MohammedF425/CISC3142.git
+   49cbfab..984700a  main -> main
+bash-3.2$ exit
+exit
+
+Script done on Thu Sep 22 17:18:12 2022
