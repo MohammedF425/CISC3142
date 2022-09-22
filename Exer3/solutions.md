@@ -19,7 +19,7 @@ std::cout << u - i << std::endl;
 ```
 
 <br>
-**Answer** : *
+**Answer** :
 ```
 32
 4294967264
@@ -27,7 +27,7 @@ std::cout << u - i << std::endl;
 -32
 0
 0
-``` *
+```
 <br>
 
 **Exercise 2.10** : What are the initial values, if any, of each of the following variables? <br>
@@ -42,7 +42,7 @@ int main()
 
 <br>
 
-**Answer** : * The initial values of global_str, global_int, local_int, local_str are ""/empty string, 0, random integer, and  ""/empty string, respectively.* <br><br>
+**Answer** : * The initial values of global_str, global_int, local_int, local_str are ""/empty string, 0, random integer, and  ""/empty string, respectively. * <br><br>
 **Exercise 2.12**: Which, if any, of the following names are invalid?<br>
 ```
 (a) int double = 3.14;
@@ -62,7 +62,7 @@ int main()
 	int j = i;
 }
 ```
-**Answer** : * The value of j is 100.* <br><br>
+**Answer** : * The value of j is 100. * <br><br>
 
 **Exercise 2.14** : Is the following program legal? If so, what values are printed?
 ```
