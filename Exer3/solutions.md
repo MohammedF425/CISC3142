@@ -17,10 +17,7 @@ std::cout << i - i2 << std::endl;
 std::cout << i - u << std::endl;
 std::cout << u - i << std::endl;
 ```
-
-<br>
-**Answer** :
-<br>
+**Answer** : <br>
 ```
 32
 4294967264
@@ -123,13 +120,4 @@ std::cout << i << " " << ri << std::endl;
 (d) *Illegal, since p3 is a const pointer and must be initialized. *
 (e) *legal since p is a pointer to const int and does not need to be initialized *
 ```
-
-
-
-
-
-
-
-
-
 
