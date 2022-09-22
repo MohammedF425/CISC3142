@@ -20,6 +20,7 @@ std::cout << u - i << std::endl;
 
 <br>
 **Answer** :
+<br>
 ```
 32
 4294967264
@@ -62,7 +63,7 @@ int main()
 	int j = i;
 }
 ```
-**Answer** : * The value of j is 100. * <br><br>
+**Answer** : *The value of j is 100.* <br><br>
 
 **Exercise 2.14** : Is the following program legal? If so, what values are printed?
 ```
