@@ -7,5 +7,5 @@ jobs:
         - uses: actions/checkout@v2
         - run: echo "Running makefile" 
         - name: create prog
-          run: g++ CISC3142/Exer3/hello.cpp
+          run: g++ MohammedF425/CISC3142/Exer3/hello.cpp
         - run: ./a.out
