@@ -4,7 +4,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-        - uses: actions/checkout@v2
-        - run: echo "Running makefile" 
+        - uses: actions/checkout@v2 
         - name: create prog
-  	  run: g++ ./Exer3/hello.cpp && ./a.out
+	  run: echo "Running makefile"
+  	- run: g++ ./Exer3/hello.cpp && ./a.out
