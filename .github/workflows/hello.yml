@@ -1,4 +1,4 @@
-name: Hello World
+iname: Hello World
 on: [push]
 jobs:
   build:
@@ -7,4 +7,4 @@ jobs:
         - uses: actions/checkout@v2 
         - name: create prog
           run: echo "Running makefile"
-  	- run: g++ ./Exer3/hello.cpp && ./a.out
+        - run: g++ ./Exer3/hello.cpp && ./a.out
