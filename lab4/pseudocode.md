@@ -35,7 +35,8 @@ int main (){
 
 
 ```
-<br>
+
+
 **Inflation**<br>
 ```
 //include iostream and cmath
