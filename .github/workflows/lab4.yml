@@ -1,0 +1,12 @@
+name: lab4
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+        - uses: actions/checkout@v2
+        - name: create prog
+          run: echo "Running 3.17"
+        - run: g++ ./lab4/practiceProblem3.17.cpp && ./a.out
+        - run: hello my name is mohammed fadel i am doing well, testing
+
