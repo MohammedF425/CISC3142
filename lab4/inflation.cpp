@@ -16,5 +16,6 @@ int main(){
         currentCost *= (1+rateInflation);
     }
     currentCost = round(currentCost*100)/100;
-    cout<<"After "<<numYears<<" years the expected cost per unit is " << currentCost<<endl;
+    cout<<"After "<<numYears<<" years the expected cost per unit is $" << currentCost<<endl;
+    return 0;
 }

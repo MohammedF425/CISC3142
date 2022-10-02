@@ -9,7 +9,7 @@ int main(){
     int mouseMass = 0;
     int massDieter = 0;
     int lethalAmountSoda = 0;
-    float sodaAS = 0.001; //amount of artificial sweetener in soda
+    const float sodaAS = 0.001 * 350; //amount of artificial sweetener in each soda pop
     float ratio = 0; //lethal amount of artificial sweetener per gram in mass
     cout<<"Enter 0 to stop program or anything else to continue"<<endl;
     while(cin>>mode && mode !="0"){
@@ -20,14 +20,14 @@ int main(){
         ratio = (float)lethalDose/mouseMass; 
         cout<<"Enter the target weight of the dieter in grams. (454 grams per lb)"<<endl;
         cin >> massDieter;
-        lethalAmountSoda = (ratio * massDieter) / (sodaAS) -1 ;//(lethal amount artifical sweetener for dieter) / (sodaAS)
-        // which gives the minimum lethal amount of soda,  (-1) to not reach that lethal amount 
+        lethalAmountSoda = (ratio * massDieter) / (sodaAS);//(lethal amount artifical sweetener for dieter) / (sodaAS)
+        // which gives the minimum lethal amount of soda, 
         cout << "The most diet soda the dieter can drink before reaching the lethal amount of artificial sweetener";
-        cout << " is "<<lethalAmountSoda<<endl;//<< lethalAmountSoda;
+        cout << " is "<<lethalAmountSoda-1 << " cans"<<endl;//<< lethalAmountSoda;
         cout<<"Enter 0 to stop program or anything else to continue"<<endl;
 
     }
-    
+    return 0;
 
 
 }
