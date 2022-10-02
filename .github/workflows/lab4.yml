@@ -19,4 +19,4 @@ jobs:
         - run: g++ ./lab4/inflation.cpp && ./a.out
         - name: create prog
           run: echo "Running nutrition calcular"
-        - run: make nutritionCalc       
+        - run: g++ ./lab4/nutritionCalc.cpp && ./a.out       
