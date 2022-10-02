@@ -8,5 +8,15 @@ jobs:
         - name: create prog
           run: echo "Running 3.17"
         - run: g++ ./lab4/practiceProblem3.17.cpp && ./a.out
-        - run: hello my name is mohammed fadel i am doing well, testing
-
+        - name: create prog
+          run: echo "Running 3.23"
+        - run: g++ ./lab4/practiceProblem3.23.cpp && ./a.out
+        - name: create prog
+          run: echo "Running 4.28"
+        - run: g++ ./lab4/practiceProblem4.28.cpp && ./a.out
+        - name: create prog
+          run: echo "Running inflation"
+        - run: g++ ./lab4/inflation.cpp && ./a.out
+        - name: create prog
+          run: echo "Running nutrition calcular"
+        - run: g++ ./lab4/nutritionCalc.cpp && ./a.out       
