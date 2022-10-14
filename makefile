@@ -32,14 +32,14 @@ nutritionCalc:
 	c++ ./lab4/nutritionCalc.cpp -o a.out
 	./a.out
 
-lab5: echo Running Sum of Digits
-      g++ ./lab5/sumOfDigits.cpp 
-      ./a.out
+lab5: 
+        echo Running Sum of Digits
+        g++ ./lab5/sumOfDigits.cpp 
+        ./a.out
       
-      echo Running Prime Numbers
-      g++ ./lab5/primeNumbers.cpp
-      ./a.out
+        echo Running Prime Numbers
+        g++ ./lab5/primeNumbers.cpp
+        ./a.out
 
-      echo Running Linear Regression with input file
-      g++ ./lab5/linearRegression.cpp
-
+        echo Running Linear Regression with input file
+        g++ ./lab5/linearRegression.cpp
