@@ -8,3 +8,7 @@ jobs:
         - name: create prog
           run: echo "Running makefile"
         - run: g++ ./Exer3/hello.cpp && ./a.out
+
+        - name: creating lab5
+          run: echo "Running lab 5"
+          run: make

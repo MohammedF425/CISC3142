@@ -1,5 +1,5 @@
 default: 
-	make helloWorld
+	make lab
 
 helloWorld:
 	c++ ./Exer3/hello_world.cpp && ./a.out
@@ -32,3 +32,15 @@ nutritionCalc:
 	c++ ./
 lab4/nutritionCalc.cpp -o a.out
 	./a.out
+
+lab5: echo Running Sum of Digits
+      g++ ./lab5/sumOfDigits.cpp 
+      ./a.out
+      
+      echo Running Prime Numbers
+      g++ ./lab5/primeNumbers.cpp
+      ./a.out
+
+      echo Running Linear Regression with input file
+      g++ ./lab5/linearRegression.cpp
+
