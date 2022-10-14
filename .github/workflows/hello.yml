@@ -1,4 +1,4 @@
-name: Hello World
+name: Lab 5
 on: [push]
 jobs:
   build:
