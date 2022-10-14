@@ -1,5 +1,5 @@
 default: 
-	make lab
+	make lab5
 
 helloWorld:
 	c++ ./Exer3/hello_world.cpp && ./a.out
@@ -29,8 +29,7 @@ inflation:
 
 
 nutritionCalc:
-	c++ ./
-lab4/nutritionCalc.cpp -o a.out
+	c++ ./lab4/nutritionCalc.cpp -o a.out
 	./a.out
 
 lab5: echo Running Sum of Digits
