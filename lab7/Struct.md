@@ -26,11 +26,17 @@ return 0;
 }
 ```
 <br>
-***Answer: The program prints***
+*Answer: The program prints*
+
 <br>
-***Col 50 Row 50***
+
+*Col 50 Row 50*
+
 <br>
-***Col 50 Row 70***
+
+*Col 50 Row 70*
+
 <br>
-***Col 25 Row 50***
+
+*Col 25 Row 50*
 
