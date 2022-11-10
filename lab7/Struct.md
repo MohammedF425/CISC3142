@@ -1,3 +1,7 @@
+**Task: Give the output of the following program. Assuming all the desire
+d header files are already included,which are required to run the code.**
+<br>
+```
 #include <iostream>
 using namespace std;
 
@@ -20,3 +24,13 @@ Display(Y); //Col 50 Row 70
 Display(Z); //Col 25 Row 50
 return 0;
 }
+```
+<br>
+***Answer: The program prints***
+<br>
+***Col 50 Row 50***
+<br>
+***Col 50 Row 70***
+<br>
+***Col 25 Row 50***
+
